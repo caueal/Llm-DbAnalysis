@@ -6,7 +6,7 @@ import io.quarkiverse.langchain4j.RegisterAiService;
 @RegisterAiService(tools = {})
 public interface Service {
 
-    @SystemMessage("Você é um simpático assistente e pode consultar o dia e hora usando Tools")
+    @SystemMessage("Você é um simpático assistente")
     String input(String input);
 
 }
